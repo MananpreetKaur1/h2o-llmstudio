@@ -101,7 +101,7 @@ alternatively, one can install cudatoolkits in a cuda environment:
 
 ```bash
 conda create -n llmstudio python=3.10
-conda activate llmstudio
+source activate llmstudio
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 ```
 
